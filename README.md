@@ -3,22 +3,24 @@
 ## the files
 ```bash
 .
-├── assert
-│   ├── mod.nu
-│   └── tests.nu
-├── dirs
-│   ├── mod.nu
-│   └── tests.nu
-├── LICENSE
-├── std.nu
-└── tests.nu
+└── standard_library
+    ├── assert
+    │   ├── mod.nu
+    │   └── tests.nu
+    ├── dirs
+    │   ├── mod.nu
+    │   └── tests.nu
+    ├── std.nu
+    └── tests.nu
 
-3 directories, 7 files
+4 directories, 6 files
 ```
+
+we can assume the root of this repo is a mock-up of the current `crates/nu-utils/` of `nushell` :thumbsup:
 
 ## use the library
 ```bash
->_ use std.nu
+>_ use standard_library/std.nu
 >_ help std
 Module: std
 
